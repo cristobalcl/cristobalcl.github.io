@@ -1,0 +1,24 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { CV } from "@consts";
+---
+
+<PageLayout title={CV.TITLE} description={CV.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        CV
+      </div>
+      <ul class="flex flex-col space-y-4">
+        <article>
+          <slot />
+        </article>
+      </ul>
+<!-- 
+      <ul class="animate flex flex-col gap-4">
+
+      </ul> -->
+    </div>
+  </Container>
+</PageLayout>

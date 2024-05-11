@@ -28,6 +28,11 @@ export const PROJECTS: Metadata = {
   DESCRIPTION: "A collection of my projects, with links.",
 };
 
+export const CV: Metadata = {
+  TITLE: "CV",
+  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+};
+
 export const SOCIALS: Socials = [
   { 
     NAME: "twitter-x",

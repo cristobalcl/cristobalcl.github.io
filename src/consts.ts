@@ -10,7 +10,7 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "Personal web of Cristóbal Carnero Liñán, freelance Software Engineer. Backend developer, DevOps, MLOps, AI. Python, Django, FastAPI, AWS, Terraform.",
 };
 
 export const BLOG: Metadata = {
@@ -30,7 +30,7 @@ export const PROJECTS: Metadata = {
 
 export const CV: Metadata = {
   TITLE: "CV",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "Cristóbal Carnero Liñán's curriculum vitae (CV).",
 };
 
 export const SOCIALS: Socials = [

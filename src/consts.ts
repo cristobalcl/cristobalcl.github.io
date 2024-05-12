@@ -33,6 +33,11 @@ export const CV: Metadata = {
   DESCRIPTION: "Cristóbal Carnero Liñán's curriculum vitae (CV).",
 };
 
+export const HIRE: Metadata = {
+  TITLE: "Hire",
+  DESCRIPTION: "How to hire Cristóbal Carnero Liñán, and services.",
+};
+
 export const SOCIALS: Socials = [
   { 
     NAME: "twitter-x",

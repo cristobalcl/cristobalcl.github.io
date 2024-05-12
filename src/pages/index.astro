@@ -63,7 +63,7 @@ const work = await Promise.all(
           <p>
           </p>
         </article>
-        <ul class="flex flex-wrap gap-2">
+        <ul class="animate flex flex-wrap gap-2">
           {SOCIALS.map(SOCIAL => (
             <li class="flex gap-x-2 text-nowrap">
               <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
@@ -78,14 +78,10 @@ const work = await Promise.all(
             </Link>
           </li>
         </ul>
-        <h5 class="font-semibold text-black dark:text-white mt-6">
+        <h5 class="animate font-semibold text-black dark:text-white mt-6">
           Expertise
         </h5>
-        <article>
-          <p>
-          </p>
-        </article>
-        <ul class="list-none">
+        <ul class="animate list-none mt-4">
           <li>
             Python / FastAPI / Django / Django REST Framework / Flask / Tornado / Celery
           </li>
@@ -104,9 +100,9 @@ const work = await Promise.all(
           <li>
             OpenAI's API / LangChain / Instructor
           </li>
-          <!-- li>
+          <li>
             Next.js / Vue / Astro
-          </li -->
+          </li>
         </ul>
       </section>
 

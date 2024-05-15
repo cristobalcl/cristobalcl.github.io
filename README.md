@@ -4,6 +4,13 @@
 
 Built with Astro, using Astro Nano template.
 
+## Run dev
+
+```
+nvm use 20
+npm run dev
+```
+
 ## Commands
 
 All commands are run from the root of the project, from a terminal:

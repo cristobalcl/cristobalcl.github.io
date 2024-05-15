@@ -1,7 +1,7 @@
 ---
 title: "How to start a Python project with Django in 2020"
 description: "How to start a Python project with Django in 2020"
-date: "Mar 22 2024"
+date: "May 10 2020"
 ---
 
 ![Photo by Chris Ried on Unsplash](./chris-ried-ieic5Tq8YMk-unsplash.jpg)
